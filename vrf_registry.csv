@@ -1,0 +1,38 @@
+Reference Point Name,Volttron Point Name,Units,Unit Details,BACnet Object Type,Property,Writable,Index,Write Priority,Notes
+Alarm_Code/MI_001,Alarm_Code/MI_001,State,State count: 256,multiStateInput,presentValue,FALSE,257,1,
+Temp/AI_001,Temp/AI_001,degreesCelsius,18.00 to 27.00,analogInput,presentValue,FALSE,260,1,Resolution: 1
+Temp/AO_001,Temp/AO_001,degreesCelsius,18.00 to 27.00 (default 18.0),analogOutput,presentValue,TRUE,388,1,Resolution: 1
+Flap/MI_001,Flap/MI_001,State,State count: 7,multiStateInput,presentValue,FALSE,263,1,
+Flap/MO_001,Flap/MO_001,State,State count: 7 (default 1),multiStateOutput,presentValue,TRUE,391,1,
+Room_Temp/AI_001,Room_Temp/AI_001,degreesCelsius,-35.00 to 92.50,analogInput,presentValue,FALSE,264,1,Resolution: 0.5
+Fan/MI_001,Fan/MI_001,State,State count: 6,multiStateInput,presentValue,FALSE,261,1,
+Fan/MO_001,Fan/MO_001,State,State count: 6 (default 2),multiStateOutput,presentValue,TRUE,389,1,
+Mode/MI_001,Mode/MI_001,State,State count: 4,multiStateInput,presentValue,FALSE,259,1,
+Mode/MO_001,Mode/MO_001,State,State count: 4 (default 2),multiStateOutput,presentValue,TRUE,387,1,
+Inhibit/MI_001,Inhibit/MI_001,State,State count: 8,multiStateInput,presentValue,FALSE,265,1,
+Inhibit/MO_001,Inhibit/MO_001,State,State count: 8 (default 1),multiStateOutput,presentValue,TRUE,393,1,
+Alarm_Code/MI_002,Alarm_Code/MI_002,State,State count: 256,multiStateInput,presentValue,FALSE,513,1,
+Temp/AI_002,Temp/AI_002,degreesCelsius,18.00 to 29.00,analogInput,presentValue,FALSE,516,1,Resolution: 1
+Temp/AO_002,Temp/AO_002,degreesCelsius,18.00 to 29.00 (default 18.0),analogOutput,presentValue,TRUE,644,1,Resolution: 1
+Flap/MI_002,Flap/MI_002,State,State count: 7,multiStateInput,presentValue,FALSE,519,1,
+Flap/MO_002,Flap/MO_002,State,State count: 7 (default 1),multiStateOutput,presentValue,TRUE,647,1,
+Room_Temp/AI_002,Room_Temp/AI_002,degreesCelsius,-35.00 to 92.50,analogInput,presentValue,FALSE,520,1,Resolution: 0.5
+Fan/MI_002,Fan/MI_002,State,State count: 6,multiStateInput,presentValue,FALSE,517,1,
+Fan/MO_002,Fan/MO_002,State,State count: 6 (default 2),multiStateOutput,presentValue,TRUE,645,1,
+Mode/MI_002,Mode/MI_002,State,State count: 4,multiStateInput,presentValue,FALSE,515,1,
+Mode/MO_002,Mode/MO_002,State,State count: 4 (default 2),multiStateOutput,presentValue,TRUE,643,1,
+Inhibit/MI_002,Inhibit/MI_002,State,State count: 8,multiStateInput,presentValue,FALSE,521,1,
+Inhibit/MO_002,Inhibit/MO_002,State,State count: 8 (default 1),multiStateOutput,presentValue,TRUE,649,1,
+Alarm_Code/MI_003,Alarm_Code/MI_003,State,State count: 256,multiStateInput,presentValue,FALSE,769,1,
+Temp/AI_003,Temp/AI_003,degreesCelsius,18.00 to 27.00,analogInput,presentValue,FALSE,772,1,Resolution: 1
+Temp/AO_003,Temp/AO_003,degreesCelsius,18.00 to 27.00 (default 18.0),analogOutput,presentValue,TRUE,900,1,Resolution: 1
+Flap/MI_003,Flap/MI_003,State,State count: 7,multiStateInput,presentValue,FALSE,775,1,
+Flap/MO_003,Flap/MO_003,State,State count: 7 (default 1),multiStateOutput,presentValue,TRUE,903,1,
+Room_Temp/AI_003,Room_Temp/AI_003,degreesCelsius,-35.00 to 92.50,analogInput,presentValue,FALSE,776,1,Resolution: 0.5
+Fan/MI_003,Fan/MI_003,State,State count: 6,multiStateInput,presentValue,FALSE,773,1,
+Fan/MO_003,Fan/MO_003,State,State count: 6 (default 2),multiStateOutput,presentValue,TRUE,901,1,
+Mode/MI_003,Mode/MI_003,State,State count: 4,multiStateInput,presentValue,FALSE,771,1,
+Mode/MO_003,Mode/MO_003,State,State count: 4 (default 2),multiStateOutput,presentValue,TRUE,899,1,
+Inhibit/MI_003,Inhibit/MI_003,State,State count: 8,multiStateInput,presentValue,FALSE,777,1,
+Inhibit/MO_003,Inhibit/MO_003,State,State count: 8 (default 1),multiStateOutput,presentValue,TRUE,905,1,
+State/BO_002,State/BO_002,State,State count: 2,binaryOutput,presentValue,TRUE,642,1,
